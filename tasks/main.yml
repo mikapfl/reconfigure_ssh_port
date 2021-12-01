@@ -30,7 +30,7 @@
   wait_for:
     port: "{{ configured_port }}"
     state: "started"
-    host: "{{ ansible_host }}"
+    host: "{{ inventory_hostname }}"
     connect_timeout: "5"
     timeout: "10"
   delegate_to: "localhost"
