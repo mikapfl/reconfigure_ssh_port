@@ -1,5 +1,7 @@
 ---
 galaxy_info:
+  role_name: reconfigure_ssh_port
+  namespace: mikapfl
   author: Mika Pflüger
   description: Configure another ssh port without losing the ansible connection.
   company: Potsdam Institute for Climate Impact Research (PIK) e. V.
